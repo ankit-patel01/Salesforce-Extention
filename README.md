@@ -2,6 +2,7 @@
 
 A Premium Salesforce Debug Log Searcher Extension
 Salesforce LogHunt is a high-performance Chrome Extension designed for Salesforce Developers and Admins. It simplifies the tedious process of searching through hundreds of Apex Debug Logs by providing a sleek, integrated UI that finds exactly what you're looking for in seconds.
+<img width="499" height="620" alt="image" src="https://github.com/user-attachments/assets/c2b1fc15-4167-4e2d-b2b0-83ab6a58a083" />
 
 ✨ Features
 Lightning Optimized: Specifically engineered to pierce through Salesforce Lightning iframes to highlight logs directly in the Setup UI.
@@ -61,4 +62,4 @@ ankit.ap.patel01@gmail.com
 “Crafted for engineers who value speed, precision, and a clean UI.”
 
 
-<img width="699" height="820" alt="image" src="https://github.com/user-attachments/assets/c2b1fc15-4167-4e2d-b2b0-83ab6a58a083" />
+
