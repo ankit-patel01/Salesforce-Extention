@@ -56,10 +56,9 @@ Zero-Footprint: Once the panel is closed or the page is refreshed, all injected 
 
 👨‍💻 Developed By
 Ankit Patel
-ankit.ap.patel01@gmail.com
+Email:: ankit.ap.patel01@gmail.com
 
-"Awaiating for response on enachement or the bugs you found."
-“Crafted for engineers who value speed, precision, and a clean UI.”
+"Awaiting for response on enachement or the bugs you found."
 
 
 
