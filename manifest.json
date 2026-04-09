@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Salesforce LogHunt",
-  "version": "4.1",
+  "version": "4.2",
   "description": "Premium Salesforce Debug Log Searcher.",
   "icons": {
     "16": "icon16.png",
@@ -18,21 +18,28 @@
   },
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "cookies"
   ],
   "host_permissions": [
     "*://*.salesforce.com/*",
     "*://*.force.com/*",
     "*://*.salesforce-setup.com/*"
   ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
   "web_accessible_resources": [
     {
-      "resources": ["icon16.png", "icon48.png", "icon128.png"],
-      "matches": ["*://*.salesforce.com/*", "*://*.force.com/*", "*://*.salesforce-setup.com/*"]
+      "resources": ["icon16.png", "icon48.png", "icon128.png", "bridge.js"],
+      "matches": [
+        "*://*.salesforce.com/*",
+        "*://*.force.com/*",
+        "*://*.salesforce-setup.com/*"
+      ]
     }
   ],
   "background": {
     "service_worker": "background.js"
   }
-  
 }
